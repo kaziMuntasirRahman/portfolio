@@ -67,7 +67,7 @@ const Sidebar = () => {
 
       <div className="sidebar w-full h-24 fixed z-20 flex justify-around min-[946px]:hidden items-center rounded shadow-sm">
         <div className="w-44 h-full text-6xl text-[#00CF5D] flex justify-center items-center relative -left-[13%] max-[655px]:-left-[24%] text-start font-semibold">
-          R
+          M
         </div>
         <div className="text-black p-2 bg-[#00CF5D] rounded-sm shadow-md menu">
           <AiOutlineMenu className="w-8 h-8" onClick={handleSidebarToggle} />
@@ -75,7 +75,7 @@ const Sidebar = () => {
       </div>
 
       {isSidebarOpen && (
-        <div className="fixed min-[945px]:hidden inset-y-0 left-0 w-64 h-screen transition-all duration-500 ease-out flex flex-col justify-between bg-white shadow-lg z-20">
+        <div className="fixed min-[945px]:hidden inset-y-0 left-0 w-64 h-[400px] transition-all duration-500 ease-out flex flex-col justify-between bg-white shadow-lg z-20">
           <div className="sidebar w-full h-24 shadow-md flex justify-center items-center text-2xl text-white font-semibold gap-x-8">
             <p>Portfolio</p>
             <div className="w-8 h-8">
