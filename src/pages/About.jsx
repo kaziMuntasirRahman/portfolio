@@ -1,4 +1,4 @@
-import MyImage from "../imgs/montasir_rahman.png";
+import MyImage from "../imgs/suit-profile.png";
 const About = () => {
   return (
     <div
