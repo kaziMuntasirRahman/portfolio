@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typewriter from "typewriter-effect";
-import MyImage from "../imgs/montasir_rahman.png";
+import MyImage from "../imgs/suit-profile.png";
 import { AiFillGithub } from "react-icons/ai";
 import Gmail from "../imgs/gmail.png";
 
@@ -136,7 +136,7 @@ const Section = () => {
           <img
             src={MyImage}
             alt="My Picture"
-            className="w-[80%] h-[80%] bg-transparent  rounded-full mr-8 object-cover overflow-hidden"
+            className="w-[80%] h-[80%] bg-transparent  rounded-full mr-8 object-cover object-top overflow-hidden"
           />
         </div>
       </div>

@@ -1,12 +1,15 @@
 import { AiFillGithub } from "react-icons/ai";
-import tech_hunt from "../imgs/tech-hunt-home.png";
-import get_it_done from "../imgs/get-it-done.png"
-import craftopia from "../imgs/craftopia.png"
+// import tech_hunt from "../imgs/tech-hunt-home.png";
+// import get_it_done from "../imgs/get-it-done.png"
+// import craftopia from "../imgs/craftopia.png"
+import tech_hunt_full from "../imgs/tech-hunt0.web.app.jpeg";
+import get_it_done_full from "../imgs/get-it-done0.netlify.app.jpeg";
+import luxe_Haven_full from "../imgs/luxe-haven-official.web.app.jpeg";
 
 const projectsData = [
   {
     name: "Tech Hunt",
-    imageSrc: tech_hunt,
+    imageSrc: tech_hunt_full,
     liveLink: "https://tech-hunt0.web.app/",
     githubLink: "https://github.com/kaziMuntasirRahman/tech-hunt-client",
     description: "A discovery hub for exploring the latest tech tools, apps, games, and innovations",
@@ -14,7 +17,7 @@ const projectsData = [
   },
   {
     name: "Get It Done",
-    imageSrc: get_it_done,
+    imageSrc: get_it_done_full,
     liveLink: "https://get-it-done0.netlify.app/",
     githubLink: "https://github.com/kaziMuntasirRahman/get-it-done",
     description:
@@ -22,14 +25,23 @@ const projectsData = [
     technologies: ["ReactJs", "TailwindCSS", "ExpressJs", "MongoDB"],
   },
   {
-    name: "Craftopia",
-    imageSrc: craftopia,
-    liveLink: "https://craftopia-client.web.app/",
-    githubLink: "https://github.com/kaziMuntasirRahman/craftopia-client",
-    description:
-      "A platform where users can explore, buy, and sell handmade crafts and artistic products.",
-    technologies: ["ReactJs", "Firebase", "ExpressJs", "MongoDB"],
-  },
+  name: "Luxe Haven",
+  imageSrc: luxe_Haven_full,
+  liveLink: "https://luxe-haven-official.web.app/",
+  githubLink: "https://github.com/kaziMuntasirRahman/luxe-haven-client",
+  description:
+    "A luxury real estate website where users can browse, view details, and inquire about premium residential properties.",
+  technologies: ["ReactJs", "Firebase", "ExpressJs", "MongoDB"],
+},
+  // {
+  //   name: "Craftopia",
+  //   imageSrc: craftopia,
+  //   liveLink: "https://craftopia-client.web.app/",
+  //   githubLink: "https://github.com/kaziMuntasirRahman/craftopia-client",
+  //   description:
+  //     "A platform where users can explore, buy, and sell handmade crafts and artistic products.",
+  //   technologies: ["ReactJs", "Firebase", "ExpressJs", "MongoDB"],
+  // },
 ];
 
 const Projects = () => {
@@ -55,10 +67,11 @@ const Projects = () => {
             >
               <div className="projectImage w-full h-full relative">
                 <img
-                  className="w-full h-[230px] rounded-t-lg object-cover"
+                  className="w-full h-[230px] rounded-t-lg object-cover object-top transition-all duration-[2s] ease-linear hover:object-bottom"
                   src={project.imageSrc}
                   alt={project.name}
                 />
+              </div>
                 <div className="imagebottomSlide w-full h-0 hover:h-full leading-6 text-violet-50 flex justify-center items-center text-center tracking-tight absolute left-0 right-0 bottom-0 z-10 bg-slate-600 opacity-80 transition-all duration-500 ease rounded-t-lg overflow-hidden">
                   <div className="w-full h-full p-6 border flex justify-center items-center border-gray-200 rounded-lg shadow-md">
                     <p className="text-gray-50 leading-7">
@@ -66,7 +79,6 @@ const Projects = () => {
                     </p>
                   </div>
                 </div>
-              </div>
               <div className="p-6 w-full h-full flex flex-col justify-center items-center gap-y-1">
                 <h5 className="mb-2 text-xl font-medium leading-tight text-white">
                   {project.name}
@@ -86,8 +98,8 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="w-10 h-10 text-white">
-                    <AiFillGithub className="w-10 h-10" />
+                  <div className="w-10 h-10 text-white flex items-center">
+                    <AiFillGithub className="w-8 h-8" />
                   </div>
                   <div className="text-xl text-white font-medium">
                     project github link

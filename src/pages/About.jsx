@@ -1,4 +1,4 @@
-import MyImage from "../imgs/suit-profile.png";
+import MyImage from "../imgs/montasir_rahman.png";
 const About = () => {
   return (
     <div
@@ -15,7 +15,7 @@ const About = () => {
         <img
           src={MyImage}
           alt="My Picture"
-          className="h-[250px] rounded-full object-cover"
+          className="h-[250px] rounded-[30%] object-cover"
         />
       </div>
       <div className="flex flex-col justify-center items-center gap-y-6">
