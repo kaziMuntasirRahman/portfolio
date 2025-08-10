@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const name = "Montasir Rahman";
+  const name = "Kazi Muntasir Rahman";
 
   return (
     <div className="w-full h-44 mt-10 bg-[#1D293A] flex flex-col justify-center items-center">

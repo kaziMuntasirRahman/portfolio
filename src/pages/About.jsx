@@ -1,4 +1,4 @@
-import MyImage from "../imgs/montasir_rahman.png";
+import MyImage from "../imgs/kazi_muntasir_rahman.png";
 const About = () => {
   return (
     <div
@@ -20,7 +20,7 @@ const About = () => {
       </div>
       <div className="flex flex-col justify-center items-center gap-y-6">
         <h1 className="text-4xl text-white font-bold max-[545px]:text-2xl">
-          Montasir Rahman
+          Kazi Muntasir Rahman
         </h1>
         <p className="text-[#00CF5D] text-4xl text-center max-[545px]:text-2xl">
           Web Developer
