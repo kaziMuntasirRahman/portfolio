@@ -84,7 +84,7 @@ const Section = () => {
         <h1 className="text-3xl lg:text-5xl flex items-center gap-x-5 text-yellow-50">
           Hi, I&apos;m{" "}
           <h2 className="text-5xl lg:text-6xl bg-gradient-to-r from-green-400 via-slate-200 to-green-500 bg-clip-text text-transparent">
-            Muntasir Rahman
+            Kazi Muntasir Rahman
           </h2>
         </h1>
         <h2 className="text-2xl xl:text-5xl font-semibold leading-relaxed bg-gradient-to-r from-green-700 to-green-600 bg-clip-text text-transparent">

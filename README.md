@@ -36,4 +36,4 @@ Feel free to reach out:
 
 ---
 
-_Made with ❤️ by Muntasir Rahman_
+_Made with ❤️ by Kazi Muntasir Rahman_
