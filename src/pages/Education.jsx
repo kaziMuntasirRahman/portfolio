@@ -19,7 +19,7 @@ const Education = () => {
       institution: "Govt. Mahtab Uddin Degree College, Kaliganj, Jhenaidah.",
     },
     {
-      date: "2020 - present",
+      date: "2020 - 2025",
       title: "BSc In CSE",
       institution: "Faridpur Engineering College, Faridpur.",
     },
